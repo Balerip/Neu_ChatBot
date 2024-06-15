@@ -1,6 +1,10 @@
 import json
 from scraper import get_content
 
+import os
+
+abs_path = os.path.dirname(__file__)
+
 def get_courses_khoury(stream):
     match stream:
         case "CS":
@@ -41,11 +45,19 @@ def get_courses_khoury(stream):
     courses_json = json.dumps(courses_data, indent=4)
     return courses_json
 
-with open("../courses/courses_cs.json", "w") as cs_json_file:
+
+
+with open(abs_path + "/../courses/cs.json", "w") as cs_json_file:
     cs_json_file.write(get_courses_khoury("CS"))
 
-with open("../courses/courses_cy.json", "w") as cy_json_file:
+cs_json_file.close()
+
+with open(abs_path + "/../courses/cy.json", "w") as cy_json_file:
     cy_json_file.write(get_courses_khoury("CY"))
 
-with open("../courses/courses_ds.json", "w") as ds_json_file:
+cy_json_file.close()
+
+with open(abs_path + "/../courses/ds.json", "w") as ds_json_file:
     ds_json_file.write(get_courses_khoury("DS"))
+
+ds_json_file.close()
