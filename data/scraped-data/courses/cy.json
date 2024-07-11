@@ -1,0 +1,194 @@
+[
+    {
+        "title": "CY\u00a05001.  Cyberspace Technology and Applications.  (4 Hours)",
+        "description": "Seeks to provide a systematic understanding of cyberspace technology and applications deployed in the global digital infrastructure. Covers topics in computer networks, server architectures, operating systems, and scripting. All the techniques and tools included in the course are oriented to serve as instruments of security administrators and cybersecurity professionals. Uses practical hands-on labs running on virtual machines and containers hosted in the cloud computing environment to train students. For that reason, a practical overview of virtualization technologies, containerization, and cloud computing models is provided.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05010.  Foundations of Information Assurance.  (4 Hours)",
+        "description": "Introduces information security via concepts of confidentiality, integrity, and availability. Discusses ethical, legal, and privacy ramifications while reviewing various laws, such as the Patriot Act, the Gramm-Leach-Bliley Act, and the General Data Protection Regulation. Covers security methods, controls, procedures, economics of cybercrime, criminal procedure, and forensics.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05061.  Cloud Security.  (2 Hours)",
+        "description": "Introduces the fundamentals of cloud computing while segueing into understanding its various security challenges, threat models, and data privacy issues in regard to compliance and legal decisions. Examines the strategies to implement security controls, perform risk assessments, handle incident detection and response, while emphasizing maintaining a business-minded security life cycle for cloud-based environments.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05062.  Introduction to IoT Security.  (2 Hours)",
+        "description": "Aims to provide a foundation for understanding the main issues associated with information security in a widely connected world in the context of Internet of Things (IoT). Emphasizes the vulnerabilities and threats of the IoT-based systems. Offers students an opportunity to learn the essentials of the IoT technologies and the underlying mechanisms for protecting information.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05065.  Cloud Security Practices.  (4 Hours)",
+        "description": "Introduces the fundamentals of cloud computing. Examines the strategies to implement security controls, perform risk assessments, and handle incident detection and response. Emphasizes maintenance of a business-minded security life cycle for cloud-based environments. Offers students an opportunity to obtain an understanding of various security challenges, threat models, and data privacy issues in regard to compliance and legal implications.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CY\u00a05010 with a minimum grade of C-"
+    },
+    {
+        "title": "CY\u00a05120.  Applied Cryptography.  (4 Hours)",
+        "description": "Surveys the principles and the practices of cryptography. Overviews the core cryptographic algorithms: symmetric encryption schemes (e.g., DES and AES); public key cryptosystems (e.g., RSA and discrete logarithm); and hash functions (e.g., the SHA family). Discusses core information assurance building blocks, such as authentication, digital signatures, key management, and digital certificates. Finally, applies these concepts to important security architectures, including the IP network stack (e.g., IPsec and SSL/TLS), the cellular system, and broadcast media. Restricted to students in the College of Computer and Information Science and in the College of Engineering or by permission of instructor.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05130.  Computer System Security.  (4 Hours)",
+        "description": "Offers a practical overview of enterprise computer security, operating systems security, and related topics. Applies concepts such as authentication, access control, integrity, and audit to the modern operating system. Discusses and demonstrates system, process, memory, and file system-level defenses\u2014and the attacks against them. Also discusses topics in data security and virtualization. Uses hands-on labs to reinforce skills and provide practical experience.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05150.  Network Security Practices.  (4 Hours)",
+        "description": "Explores issues involved in the security of computer networks. Topics include firewalls, viruses, virtual private networks, Internet security, and wireless security. Includes case studies and laboratory exercises. Restricted to students in the College of Computer and Information Science or by permission of instructor.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05200.  Security Risk Management and Assessment.  (4 Hours)",
+        "description": "Creates the opportunity for competency in the development of information security policies and plans including controls for physical, software, and networks. Discusses different malicious attacks, such as viruses and Trojan horses, detection strategies, countermeasures, damage assessment, and control. Covers information system risk analysis and management, audits, and log files. Uses case studies, site visits, and works with commercial products.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CS 2550 with a minimum grade of D-  or  CY\u00a02550 with a minimum grade of D-  or  IA 5010 with a minimum grade of C-  or  CY\u00a05010 with a minimum grade of C-  or  graduate program admission"
+    },
+    {
+        "title": "CY\u00a05210.  Information System Forensics.  (4 Hours)",
+        "description": "Designed to allow students to explore the techniques used in computer forensic examinations. Examines computer hardware, physical and logical disk structure, and computer forensic techniques. Conducts hands-on experiences on DOS, Windows operating systems, Macintosh, Novell, and Unix/Linux platforms. Builds on basic computer skills and affords hands-on experience with the tools and techniques to investigate, seize, and analyze computer-based evidence using a variety of specialized forensic software in an IBM-PC environment.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CS 2550 with a minimum grade of D-  or  CY\u00a02550 with a minimum grade of D-  or  IA 5010 with a minimum grade of C-  or  CY\u00a05010 with a minimum grade of C-  or  graduate program admission"
+    },
+    {
+        "title": "CY\u00a05240.  Cyberlaw: Privacy, Ethics, and Digital Rights.  (4 Hours)",
+        "description": "Describes the legal and ethical issues associated with information security including access, use, and dissemination. Emphasizes legal infrastructure relating to information assurance, such as the Digital Millenium Copyright Act and Telecommunications Decency Act, and emerging technologies for management of digital rights. Examines the role of information security in various domains such as healthcare, scientific research, and personal communications such as email. Examines criminal activities such as computer fraud and abuse, desktop forgery, embezzlement, child pornography, computer trespass, and computer piracy.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CS 2550 with a minimum grade of D-  or  CY\u00a02550 with a minimum grade of D-  or  IA 5010 with a minimum grade of C-  or  CY\u00a05010 with a minimum grade of C-  or  graduate program admission"
+    },
+    {
+        "title": "CY\u00a05250.  Decision Making for Critical Infrastructure.  (4 Hours)",
+        "description": "Focuses on the art and science of security program management leadership in the context of critical infrastructure protection programs. Includes selected readings, review of decision-making models in crisis, lectures and insights from accomplished leaders in infrastructure protection, and examination of the students\u2019 own unique background and experiences. Trains students on the interaction of vulnerabilities, threats, and countermeasures and how to apply this knowledge to the protection of critical infrastructure using research and analysis of national and global strategies, historical and current legislation, and policies. Also seeks to give students a working knowledge of federal, state, and private-sector critical infrastructure protection resources and programs.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05770.  Software Vulnerabilities and Security.  (4 Hours)",
+        "description": "Seeks to help students to become aware of systems security issues and to gain a basic understanding of security. Presents the principal software and applications used in the Internet, discussing in detail the related vulnerabilities and how they are exploited. Also discusses programming vulnerabilities and how they are exploited. Examines protection and detection techniques. Includes a number of practical lab assignments as well as a discussion of current research in the field.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05976.  Directed Study.  (1-4 Hours)",
+        "description": "Seeks to provide cybersecurity (CY) students with the training experience of working on a specific IA project under the direction of an CY instructor. The instructor provides students with a plan of seminar sessions, including lectures, research, and development of project deliverables and with direction to complete the course. May be repeated without limit.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a05984.  Research.  (2-4 Hours)",
+        "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a06200.  Special Topics in IT Security Governance, Risk, and Compliance.  (1-4 Hours)",
+        "description": "Offers various topics in IT security governance, risk, and compliance. May be repeated for up to 8 total credits.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a06240.  Special Topics in Privacy Law.  (1-4 Hours)",
+        "description": "Offers various topics in privacy law. May be repeated for up to 8 total credits.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a06720.  Machine Learning in Cybersecurity and Privacy.  (4 Hours)",
+        "description": "Covers a range of theoretical and applied topics related to machine learning uses in security and privacy. Examines vulnerabilities of machine learning and deep learning algorithms and the challenges of securing these systems in real-world applications. Machine learning and AI have enabled a number of critical applications\u2014 such as machine translation, speech recognition, and precision medicine\u2014with large positive impact to our daily lives.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a06740.  Network Security.  (4 Hours)",
+        "description": "Studies the theory and practice of computer security, focusing on the security aspects of multiuser systems and the Internet. Introduces cryptographic tools, such as encryption, key exchange, hashing, and digital signatures in terms of their applicability to maintaining network security. Discusses security protocols for mobile networks. Topics include firewalls, viruses, Trojan horses, password security, biometrics, VPNs, and Internet protocols such as SSL, IPSec, PGP, SNMP, and others.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a06750.  Cryptography and Communications Security.  (4 Hours)",
+        "description": "Studies the design and use of cryptographic systems for communications and other applications such as e-commerce. Discusses the history of cryptographic systems, the mathematical theory behind the design, their vulnerability, and the different cryptanalytic attacks. Topics include stream ciphers including shift register sequences; block ciphers, such as DES and AES; public-key systems including RSA, discrete logarithms; signature schemes; hash functions, such as MD5 and SHA1; and protocol schemes including identification schemes, zero-knowledge proofs, authentication schemes, and secret sharing schemes. Discusses key management problems including Needham-Schroeder protocols and certificates.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CS\u00a05800 with a minimum grade of C-  or  CS\u00a05800 with a minimum grade of D-  or  CS\u00a07800 with a minimum grade of C-"
+    },
+    {
+        "title": "CY\u00a06760.  Wireless and Mobile Systems Security.  (4 Hours)",
+        "description": "Focuses on security and privacy of mobile and wireless systems. Provides the foundations to understand the security and privacy threats and defenses in wireless and mobile systems, especially in an era where wireless network functions are implemented in software instead of traditional hardware-based solutions. Covers topics on availability/integrity issues in wireless networks, Wi-Fi and cellular network security, broadcast authentication techniques, jamming and antijamming techniques, etc. Emphasizes hands-on practical exercises to strengthen the understanding of concepts covered during the lectures. Reviews the state of the art in wireless security research through readings. Offers students an opportunity to execute a semester-long project in the broad area of wireless security.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a06962.  Elective.  (1-4 Hours)",
+        "description": "Offers elective credit for courses taken at other academic institutions. May be repeated without limit.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a07790.  Special Topics in Security and Privacy.  (4 Hours)",
+        "description": "Offers various topics in security and privacy. May be repeated for up to 8 total credits.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a07900.  Capstone Project.  (4 Hours)",
+        "description": "Draws together candidates from diverse backgrounds (technical, legal, and/or law enforcement) in a collaborative activity to address one or more security issues from an integrated perspective. Requires a project proposal, generally industrially oriented, to be submitted and accepted prior to the semester in which the project is to be undertaken.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a07962.  Elective.  (2-4 Hours)",
+        "description": "Offers elective credit for courses taken at other academic institutions. May be repeated without limit.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a07990.  Thesis.  (2-4 Hours)",
+        "description": "Offers selected work with the agreement of a project supervisor. May be repeated without limit.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a07995.  Project.  (1-4 Hours)",
+        "description": "Offers students an opportunity to participate in a direct cybersecurity project under the supervision of a faculty member. May be repeated once for a total of 8 credits.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a08982.  Readings.  (1-8 Hours)",
+        "description": "Offers selected readings under the supervision of a faculty member. May be repeated without limit.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a09000.  PhD Candidacy Achieved.  (0 Hours)",
+        "description": "Indicates successful completion of program requirements for PhD candidacy.",
+        "corequisite": null,
+        "prerequisite": null
+    },
+    {
+        "title": "CY\u00a09990.  Dissertation Term 1.  (0 Hours)",
+        "description": "Offers selected work with the agreement of a thesis supervisor.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CY\u00a09000 with a minimum grade of S"
+    },
+    {
+        "title": "CY\u00a09991.  Dissertation Term 2.  (0 Hours)",
+        "description": "Offers dissertation supervision by members of the department.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CY\u00a09990 with a minimum grade of S"
+    },
+    {
+        "title": "CY\u00a09996.  Dissertation Continuation.  (0 Hours)",
+        "description": "Continues work with the agreement of a thesis supervisor.",
+        "corequisite": null,
+        "prerequisite": "Prerequisite(s): CY\u00a09991 with a minimum grade of S  or  Dissertation Check with a score of REQ"
+    }
+]
