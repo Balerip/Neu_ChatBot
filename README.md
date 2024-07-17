@@ -32,7 +32,19 @@ This repository contains the API for the ML pipeline. It is built using FastAPI 
 
 3. **Install the required packages:**
 
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
+
+   ```
+
+#### Running the Application
+
+1. Activate the virtual environment
+2. Run the FASTAPI application using Unicorn
+
+   ```
+   uvicorn app.main:app --reload
+
 
    ```
 
