@@ -1,7 +1,7 @@
 import os
 from fastapi import FastAPI,HTTPException
 from llama_index.llms.ollama import Ollama
-from llama_index.embeddings.ollama import OllamaEmbedding  # Assuming this is your embedding model
+from llama_index.llms.ollama_embedding import OllamaEmbedding  # Assuming this is your embedding model
 from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.core import VectorStoreIndex, Settings
