@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from app.services.chat_service import get_chat_response
+from typing import Optional, Any
+from Rag_agent.services.chat_service import get_query_response
 
 router = APIRouter()
 
@@ -8,10 +9,13 @@ class ChatRequest(BaseModel):
     message: str
 
 class ChatResponse(BaseModel):
-    response: str
+    answer: str
+    status_code: int
+    error: Optional[str] = None
+    metadata: Optional[dict[str, Any]] = None
 
 @router.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest):
+async def chat(request: ChatRequest):
     """
     Endpoint to receive a chat message and return a response.
 
@@ -21,5 +25,9 @@ def chat(request: ChatRequest):
     Returns:
         ChatResponse: The response body containing the chat response.
     """
-    response = get_chat_response(request.message)
-    return ChatResponse(response=response)
+    print("ml-pipeline chat api invoked")
+    try:
+        response = await get_query_response(request.message)
+        return ChatResponse(answer=response, status_code=200, metadata={"info": "This is mock metadata"})
+    except Exception as e:
+        return ChatResponse(answer="", status_code=500, error=str(e))

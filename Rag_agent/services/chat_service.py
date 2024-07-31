@@ -5,7 +5,7 @@ from llama_index.embeddings.ollama import OllamaEmbedding  # Assuming this is yo
 from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.core import VectorStoreIndex, Settings
-import index
+from . import index
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -33,12 +33,12 @@ class Agent:
             embedding_model=  Settings.embed_model# Use the embedding model
         )
         
-
+       
         
-        # Define metadata for the tool
+        # # Define metadata for the tool
         self.metadata = ToolMetadata(
             name="QueryEngineTool",
-            description=("Handles queries related to Computer Science courses.")
+            description=("Handles queries related to Computer Science courses, Data Science Courses, Information Systems courses, Project Management and CPS Analytics couurses")
         )
         
         # Initialize the query engine tool with metadata
@@ -48,22 +48,24 @@ class Agent:
         )
      
         # Define ReAct Agent with the query engine tool
-       
+        # self.chat_agent=self.index.as_chat_engine(chat_mode="react", llm=Settings.llm, verbose=True)
         
-        self.agent = ReActAgent.from_tools([self.query_engine_tool], llm= Settings.llm, verbose=True)
-
-    def query(self, query: str) -> str:
-        if self.index is None:
-            raise HTTPException(status_code=500, detail="Index is not loaded.")
+        self.query_agent= ReActAgent.from_tools([self.query_engine_tool], llm= Settings.llm, verbose=True)
         
-        # Use the ReAct agent for querying
-        response = self.agent.chat(query)
-        return response
+    # def query(self, query: str) -> str:
+    #     if self.index is None:
+    #         raise HTTPException(status_code=500, detail="Index is not loaded.")
+        
+    #     # Use the ReAct agent for querying
+    #     response = self.agent.chat(query)
+    #     return response
 
-    def get_react_agent(self) -> ReActAgent:
-        return self.agent
-
-def get_chat_response(message: str) -> str:
+    def get_query_react_agent(self) -> ReActAgent:
+        return self.query_agent
+    # def get_chat_react_agent(self) -> ReActAgent:
+    #     return self.chat_agent
+    
+async def get_query_response(message: str) -> str:
     """
     Mocks the processing of a chat message and returns a response.
 
@@ -79,16 +81,39 @@ def get_chat_response(message: str) -> str:
          
             # Configure and query the primary agent
         agent = Agent(directory, storage_directory)
-        react_agent = agent.get_react_agent()
+        react_agent = agent.get_query_react_agent()
             
-        response = react_agent.chat(message)
-        agent_response=response.response
-        
+        query_response = await react_agent.chat(message)
+        agent_response=query_response.response
+     
         return f"This is a mock response to your message: {agent_response}"
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
+   
+# def get_chat_response(message: str) -> str:
+#     """
+#     Mocks the processing of a chat message and returns a response.
 
+#     Args:
+#         message (str): The chat message to be processed.
+
+#     Returns:
+#         str: A mock response to the chat message.
+#     """
+#     try:
+#         directory = os.environ.get("DATA_STORAGE_DIRECTORY")
+#         storage_directory = os.environ.get("INDEX_STORAGE_DIRECTORY")
+         
+#             # Configure and query the primary agent
+#         agent = Agent(directory, storage_directory)
+#         chat_react_agent = agent.get_chat_react_agent()
+#         chat_response = chat_react_agent.chat(message)
+#         chat_agent_response=chat_response.response
+     
+#         return f"This is a mock response to your message: {chat_agent_response}"
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
 # Include if needed later
 """
 if __name__ == "__main__":
@@ -98,5 +123,7 @@ if __name__ == "__main__":
 
 
 # Run the test
-message = "What are the available courses in Computer Science relevant to data?"
-get_chat_response(message)
+# question_1 = "Tell me about the prerequisites for the Web Development tools and methods course in Information Systems program?"
+# await get_query_response(question_1)
+# question_2="What are the prerequisites and topics covered in the Intermediate Programming with Data?"
+# get_query_response(question_2)
