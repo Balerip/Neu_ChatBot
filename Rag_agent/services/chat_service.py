@@ -17,10 +17,17 @@ class Agent:
     def __init__(self, directory: str, storage_directory: str):
         self.directory = directory
         self.storage_directory = storage_directory
+        print(f"Agent class, Data storage directory: {self.directory}")
+        print(f"Agent class, Index storage directory: {self.storage_directory}")
+
         self.index = index.Index(directory, storage_directory).load_index()
         if self.index is None:
             raise ValueError("Failed to load or create the index.")
+        
+        print("Creating embedding model...")
         embedding_model = OllamaEmbedding(model_name="mxbai-embed-large")
+
+        print("Creating LLM model...")
         llm_model = Ollama(model="llama3", request_timeout=60.0)
 
     # Initialize Settings with the models
@@ -28,7 +35,7 @@ class Agent:
         Settings.llm=llm_model
         # Initialize query engine with similarity_top_k=3
        
-      
+        print("Creating query engine...")
         self.query_engine = self.index.as_query_engine(
             embedding_model=  Settings.embed_model# Use the embedding model
         )
@@ -51,6 +58,7 @@ class Agent:
         # self.chat_agent=self.index.as_chat_engine(chat_mode="react", llm=Settings.llm, verbose=True)
         
         self.query_agent= ReActAgent.from_tools([self.query_engine_tool], llm= Settings.llm, verbose=True)
+        print("Agent created successfully.")
         
     # def query(self, query: str) -> str:
     #     if self.index is None:
@@ -78,16 +86,28 @@ async def get_query_response(message: str) -> str:
     try:
         directory = os.environ.get("DATA_STORAGE_DIRECTORY")
         storage_directory = os.environ.get("INDEX_STORAGE_DIRECTORY")
+
+        print(f"query resp - DataLoader directory: {directory}")
+        print(f"query resp - Index storage directory: {storage_directory}")
          
-            # Configure and query the primary agent
+        # Configure and query the primary agent
+        print(f"Attempting to create agent")
         agent = Agent(directory, storage_directory)
+
         react_agent = agent.get_query_react_agent()
-            
-        query_response = await react_agent.chat(message)
-        agent_response=query_response.response
+        query_response = react_agent.chat(message)
+
+        # Check if query_response has the attribute 'response'
+        if hasattr(query_response, 'response'):
+            agent_response = query_response.response
+            print(f"Agent response: {agent_response}")
+        else:
+            print(f"Query response does not have 'response' attribute: {query_response}")
+            agent_response = "Response attribute missing"
      
         return f"This is a mock response to your message: {agent_response}"
     except Exception as e:
+        print(f"Exception in ml.Rag_agent.chat_service.get_query_reponse: {e}")
         raise HTTPException(status_code=500, detail=str(e))
     
    
@@ -115,11 +135,11 @@ async def get_query_response(message: str) -> str:
 #     except Exception as e:
 #         raise HTTPException(status_code=500, detail=str(e))
 # Include if needed later
-"""
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="localhost", port=8003)
-"""
+# """
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="localhost", port=8003)
+# """
 
 
 # Run the test
