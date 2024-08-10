@@ -22,7 +22,7 @@ class DataLoader:
         for i, url in enumerate(urls):
             try:
                 loader = WebBaseLoader(
-                web_paths=("https://studentfinance.northeastern.edu/",))
+                web_paths=(urls))
                 docs = loader.load()
  
                 text_content = ""
@@ -35,13 +35,7 @@ class DataLoader:
                 #     # print('Taking HTML format document')
                 #     # text = soup.get_text(separator='\n')
                 #     # print('Converting the document to text')
-                #     filename = f"webpage_{i+1}.txt"
-                #     file_path = os.path.join(self.directory, filename)
-                #     print('Creating file Path')
-                #     with open(file_path, 'w', encoding='utf-8') as file:
-                #         file.write(text_content)
-                #     print('opening and writing to file')
-                #     print(f"Saved text to {file_path}")
+                #    
                 #     text_content = ""
                 for doc in docs:
     # Check and extract the correct text content
@@ -54,11 +48,18 @@ class DataLoader:
                     else:
         # Fallback or debugging information
                          text_content += str(doc) + "\n"
+                filename = f"webpage_{i+1}.txt"
+                file_path = os.path.join(self.directory, filename)
+                print('Creating file Path')
+                with open(file_path, 'w', encoding='utf-8') as file:
+                    file.write(text_content)
+                print('opening and writing to file')
+                print(f"Saved text to {file_path}")
         
 # Save the text to a .txt file
-                out = "output.txt"
-                with open(out, "w", encoding="utf-8") as file:
-                        file.write(text_content)
+                # out = "output.txt"
+                # with open(out, "w", encoding="utf-8") as file:
+                #         file.write(text_content)
 
  
             except requests.exceptions.RequestException as e:

@@ -16,7 +16,7 @@ class Agent:
     def __init__(self, directory: str, storage_directory: str,urls: list[str] = None):
         self.directory = directory
         self.storage_directory = storage_directory
-        self.urls = ["https://studentfinance.northeastern.edu/wp-json/wp/v2/pages"]
+        self.urls = ["https://studentfinance.northeastern.edu/"]
         print(f"Agent class, Data storage directory: {self.directory}")
         print(f"Agent class, Index storage directory: {self.storage_directory}")
 
