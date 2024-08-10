@@ -1,26 +1,27 @@
 import os
-from fastapi import FastAPI,HTTPException
+from fastapi import FastAPI, HTTPException
 from llama_index.llms.ollama import Ollama
-from llama_index.embeddings.ollama import OllamaEmbedding  # Assuming this is your embedding model
+from llama_index.embeddings.ollama import OllamaEmbedding
 from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.core import VectorStoreIndex, Settings
+from llama_index.embeddings.openai import OpenAIEmbedding
 from . import index
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 
-    
-
 class Agent:
-    def __init__(self, directory: str, storage_directory: str):
+    def __init__(self, directory: str, storage_directory: str,urls: list[str] = None):
         self.directory = directory
         self.storage_directory = storage_directory
+        self.urls = ["https://studentfinance.northeastern.edu/wp-json/wp/v2/pages"]
         print(f"Agent class, Data storage directory: {self.directory}")
         print(f"Agent class, Index storage directory: {self.storage_directory}")
 
-        self.index = index.Index(directory, storage_directory).load_index()
+        self.index = index.Index(directory, storage_directory).load_index(urls=self.urls)
+        
         if self.index is None:
             raise ValueError("Failed to load or create the index.")
         
@@ -30,120 +31,89 @@ class Agent:
         print("Creating LLM model...")
         llm_model = Ollama(model="llama3", request_timeout=60.0)
 
-    # Initialize Settings with the models
-        Settings.embed_model=embedding_model
-        Settings.llm=llm_model
-        # Initialize query engine with similarity_top_k=3
-       
+        # Initialize Settings with the models
+        Settings.embed_model = embedding_model
+        Settings.llm = llm_model
+
+        # Initialize query engine
         print("Creating query engine...")
         self.query_engine = self.index.as_query_engine(
-            embedding_model=  Settings.embed_model# Use the embedding model
+            similarity_top_k=2,
+            embedding_model=Settings.embed_model,
+            llm=Settings.llm  # Pass LLM model to the query engine
         )
-        
-       
-        
-        # # Define metadata for the tool
+
+        # Define metadata for the tool
         self.metadata = ToolMetadata(
             name="QueryEngineTool",
-            description=("Handles queries related to Computer Science courses, Data Science Courses, Information Systems courses, Project Management and CPS Analytics couurses")
+            description=("Handles Queries relsted to resources in Northeastern University Silicon Valley Campus")
         )
-        
+
         # Initialize the query engine tool with metadata
         self.query_engine_tool = QueryEngineTool(
             query_engine=self.query_engine,
             metadata=self.metadata
         )
-     
+
         # Define ReAct Agent with the query engine tool
-        # self.chat_agent=self.index.as_chat_engine(chat_mode="react", llm=Settings.llm, verbose=True)
-        
-        self.query_agent= ReActAgent.from_tools([self.query_engine_tool], llm= Settings.llm, verbose=True)
+        self.query_agent = ReActAgent.from_tools([self.query_engine_tool], llm=Settings.llm, verbose=True)
         print("Agent created successfully.")
-        
-    # def query(self, query: str) -> str:
-    #     if self.index is None:
-    #         raise HTTPException(status_code=500, detail="Index is not loaded.")
-        
-    #     # Use the ReAct agent for querying
-    #     response = self.agent.chat(query)
-    #     return response
 
     def get_query_react_agent(self) -> ReActAgent:
         return self.query_agent
-    # def get_chat_react_agent(self) -> ReActAgent:
-    #     return self.chat_agent
-    
-async def get_query_response(message: str) -> str:
+    def create_prompt(self,query: str) -> str:
+        return (
+        "CONTEXT:\n"
+        "I am NUGPT, a helpful, fun, and friendly chat assistant for Northeastern University. "
+        "My primary function is to provide detailed information about the resources available at Northeastern University's Silicon Valley campus, "
+        "including courses and details for various programs.\n\n"
+        "OBJECTIVE:\n"
+        "Your task is to accurately and efficiently answer questions related to resources at Northeastern University's Silicon Valley campus, "
+        "with a focus on providing detailed and relevant information specific to the program mentioned in the query. Ensure that the responses are tailored to the program or resource in question. "
+        "For questions not related to campus resources, respond appropriately.\n\n"
+        "STYLE:\n"
+        "Write in an informative and instructional style, similar to an academic advisor. Ensure clarity and coherence in presenting each resource's information, making it easy for users to understand and use the information provided.\n\n"
+        "TONE:\n"
+        "Maintain a positive, motivational, and approachable tone throughout. Your responses should feel supportive and engaging, like a knowledgeable peer or advisor offering valuable insights and guidance.\n\n"
+        "AUDIENCE:\n"
+        "The target audience is current students at Northeastern University's Silicon Valley campus. Assume a readership that is looking for detailed, accurate, and practical information about resources for various programs to guide their decisions and actions.\n\n"
+        "RESPONSE FORMAT:\n"
+        "1. For questions about a specific program mentioned in the query, provide detailed and relevant information specific to that program.\n  For e.g: If asked about course from Information systems search only the Information systems file.\n Similarly do for the other programs too"  
+          
+        "2. If you don't know the answer, respond with: 'I don't know.'\n"
+        "3. For questions not related to campus resources, respond with: 'I only answer questions about Northeastern Silicon Valley campus resources.'\n\n"
+        "QUERY:\n"
+        f"{query}"
+        )
+  
+
+def get_query_response(message: str) -> str:
     """
-    Mocks the processing of a chat message and returns a response.
-
-    Args:
-        message (str): The chat message to be processed.
-
-    Returns:
-        str: A mock response to the chat message.
+    Processes a chat message and returns a response.
     """
     try:
         directory = os.environ.get("DATA_STORAGE_DIRECTORY")
         storage_directory = os.environ.get("INDEX_STORAGE_DIRECTORY")
 
-        print(f"query resp - DataLoader directory: {directory}")
-        print(f"query resp - Index storage directory: {storage_directory}")
-         
-        # Configure and query the primary agent
-        print(f"Attempting to create agent")
         agent = Agent(directory, storage_directory)
-
         react_agent = agent.get_query_react_agent()
-        query_response = react_agent.chat(message)
+        custom_prompt = agent.create_prompt(message)
+        query_response = react_agent.chat(custom_prompt)
 
-        # Check if query_response has the attribute 'response'
         if hasattr(query_response, 'response'):
             agent_response = query_response.response
-            print(f"Agent response: {agent_response}")
         else:
-            print(f"Query response does not have 'response' attribute: {query_response}")
             agent_response = "Response attribute missing"
-     
-        return f"This is a mock response to your message: {agent_response}"
+
+        return f"Agent response: {agent_response}"  # Returning actual response
     except Exception as e:
-        print(f"Exception in ml.Rag_agent.chat_service.get_query_reponse: {e}")
+        # More detailed logging for debugging
+        print(f"Error in get_query_response: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-    
-   
-# def get_chat_response(message: str) -> str:
-#     """
-#     Mocks the processing of a chat message and returns a response.
-
-#     Args:
-#         message (str): The chat message to be processed.
-
-#     Returns:
-#         str: A mock response to the chat message.
-#     """
-#     try:
-#         directory = os.environ.get("DATA_STORAGE_DIRECTORY")
-#         storage_directory = os.environ.get("INDEX_STORAGE_DIRECTORY")
-         
-#             # Configure and query the primary agent
-#         agent = Agent(directory, storage_directory)
-#         chat_react_agent = agent.get_chat_react_agent()
-#         chat_response = chat_react_agent.chat(message)
-#         chat_agent_response=chat_response.response
-     
-#         return f"This is a mock response to your message: {chat_agent_response}"
-#     except Exception as e:
-#         raise HTTPException(status_code=500, detail=str(e))
-# Include if needed later
-# """
-# if __name__ == "__main__":
-#     import uvicorn
-#     uvicorn.run(app, host="localhost", port=8003)
-# """
-
 
 # Run the test
-# question_1 = "Tell me about the prerequisites for the Web Development tools and methods course in Information Systems program?"
-# await get_query_response(question_1)
-# question_2="What are the prerequisites and topics covered in the Intermediate Programming with Data?"
-# get_query_response(question_2)
+question_1 = "What are the prerequisites for the Web Development tools and methods course in the Information Systems program?"
+print(get_query_response(question_1))
+
+question_2="What are the corequisites for the Data Science Programming Practicum course in Data Science program?"
+print(get_query_response(question_2))

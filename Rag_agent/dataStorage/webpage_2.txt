@@ -1,0 +1,231 @@
+[{"id":4710,"date":"2022-08-09T22:53:53","date_gmt":"2022-08-09T22:53:53","guid":{"rendered":"https:\/\/svstartupspace.sites.northeastern.edu\/?page_id=4710"},"modified":"2022-09-07T21:09:23","modified_gmt":"2022-09-07T21:09:23","slug":"northeastern-resources","status":"publish","type":"page","link":"https:\/\/svstartupspace.sites.northeastern.edu\/northeastern-resources\/","title":{"rendered":"Northeastern Resources"},"content":{"rendered":"\n
+\n
+\n
+\n
+Northeastern Resources for Entrepreneurs<\/h1>\n<\/div><\/div>\n<\/div><\/div>\n<\/div><\/div><\/div><\/div>\n\n\n\n
+\n
+\n
+Accelerating Ambition<\/h2>\n\n\n\n
+All startups accepted to make use of Startup Space @ Silicon Valley are also invited to connect with the many resources that Northeastern makes available to university-affiliated entrepreneurs.<\/p>\n\n\n\n
+Venture Mentoring Network.<\/strong> Since 2014, the 
+Network<\/a> has connected hundreds of practiced mentors and industry experts to early-stage ventures and entrepreneurs. Mentors guide rising entrepreneurs through informal discussions focused on a venture\u2019s achievements, objectives, and timely, identifiable business challenges. These sessions help determine an enterprise’s goals and best next steps, plus open the door to fruitful new connections on the path to successful commercialization. <\/p>\n\n\n\n
+Women Who Empower Initiative<\/strong>. Through the 
+Women Who Empower<\/a> initiative, a network of both established and aspiring leaders come together to build lasting and impactful connections. The group supports members through events, masterclasses, mentorship programs, and other opportunities.<\/p>\n\n\n\n
+Alumni Relations<\/strong>. The Office of Alumni Relations manages a wide range of services under the 
+innovation ecosystem<\/a> umbrella, including those listed below.<\/p>\n\n\n\n
+Center for Research Innovation<\/strong>. 
+CRI<\/a> helps translate research and innovation from the University into tangible solutions through licenses, spinouts and collaborations. Their dedicated experts help teams bring their discoveries to the commercial market.<\/p>\n\n\n\n
+Huntington Angels Network<\/strong>. 
+HAN<\/a> is a student-run organization whose mission is to grow the Northeastern venture community by connecting vetted and investment-ready start-ups to a global investor network of angel investors and venture capital firms. <\/p>\n\n\n\n
+IDEA<\/strong>. This 
+student-led venture accelerator<\/a> fosters the development of entrepreneurs in the Northeastern community through the educational experience of developing a business from concept to launch. The program is open to current students but also to alumni and other University-affiliated entrepreneurs.<\/p>\n\n\n\n
+Scout<\/strong>. This 
+design lab<\/a> comprised of College of Arts, Media and Design students can assist with projects like product packaging and logo creation. <\/p>\n\n\n\n
+Generate Build Studio<\/strong>. Each semester, this student-led studio provides free product development support to Northeastern ventures. Clients are chosen 
+by application<\/a>.<\/p>\n\n\n\n
+IP Law Clinic<\/strong>. A student-led clinic in the School of Law, the 
+IP CO-LAB<\/a> provides free intellectual property legal services to entrepreneurs and innovators at Northeastern.<\/p>\n\n\n\n
+NUMA<\/strong>. The 
+Northeastern University Marketing Association (NUMA)<\/a> takes on NU-affiliated clients for marketing consulting, market research, and social media strategy.<\/p>\n\n\n\n
+Northeastern Library<\/strong>. For current students, faculty, and staff, the Library offers 
+resources curated for entrepreneurs.<\/a><\/p>\n<\/div><\/div>\n<\/div><\/div>\n\n\n\n
+\n
+Interested?<\/h4>\n\n\n\n
+Email us at 
+svstartupspace@northeastern.edu<\/a> or complete your 
+application to join the space<\/a>.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+<\/p>\n","protected":false},"excerpt":{"rendered":"
+Northeastern Resources for Entrepreneurs Accelerating Ambition All startups accepted to make use of Startup Space @ Silicon Valley are also invited to connect with the many resources that Northeastern makes available to university-affiliated entrepreneurs. Venture Mentoring Network. Since 2014, the Network has connected hundreds of practiced mentors and industry experts to early-stage ventures and entrepreneurs….<\/p>\n","protected":false},"author":701,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"_acf_changed":false,"inline_featured_image":false,"_coblocks_attr":"","_coblocks_dimensions":"{\"coblocks-hero-619141937587\":{\"padding\":{}}}","_coblocks_responsive_height":"{\"coblocks-hero-619141937587\":{\"height\":{\"height\":350}}}","_coblocks_accordion_ie_support":"","footnotes":""},"acf":[],"_links":{"self":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4710"}],"collection":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/users\/701"}],"replies":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/comments?post=4710"}],"version-history":[{"count":16,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4710\/revisions"}],"predecessor-version":[{"id":4751,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4710\/revisions\/4751"}],"wp:attachment":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/media?parent=4710"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":4278,"date":"2022-06-07T16:38:22","date_gmt":"2022-06-07T16:38:22","guid":{"rendered":"https:\/\/lab-flex.sites.northeastern.edu\/?page_id=4278"},"modified":"2022-08-30T21:45:23","modified_gmt":"2022-08-30T21:45:23","slug":"home-page","status":"publish","type":"page","link":"https:\/\/svstartupspace.sites.northeastern.edu\/","title":{"rendered":"Startup Space @ Northeastern in San Jose"},"content":{"rendered":"\n
+\n
+\n
+\n
+A workspace for alumni- and student-led ventures <\/h1>\n\n\n\n
+\n
+Link to Apply<\/a><\/div>\n<\/div>\n<\/div><\/div>\n<\/div><\/div>\n<\/div><\/div><\/div><\/div>\n\n\n\n
+<\/p>\n\n\n\n
+\n
+\n
+Build your company at Northeastern in San Jose, the heart of Silicon Valley.<\/h2>\n\n\n\n
+Startup Space @ Silicon Valley is a co-working space for selected ventures led by Northeastern alumni or students. Startups that are chosen by application will be invited to use the space free of charge.<\/p>\n\n\n\n
+Housed in the same campus as our graduate programs in downtown San Jose, CA, the site is newly-renovated and fully-equipped office space. Along with desk space, you’ll share access to conference rooms, breakout spaces, a reservable event space, and other building amenities.<\/p>\n\n\n\n
+Northeastern University in San Jose will accept applications on a yearly basis for qualifying startups, with the inaugural cohort to be welcomed in September, 2022 for an initial lease period of six months until March 1, 2023. <\/p>\n\n\n\n
+Applications are open now.<\/p>\n<\/div><\/div>\n<\/div><\/div>\n\n\n\n
+<\/div>\n\n\n\n
+\n
+\n
+\n
+<\/figure>
+\n
+Frequently Asked Questions<\/h3>\n\n\n\n
+All the basics that you need to know about the Startup Space.<\/p>\n\n\n\n
+<\/p>\n\n\n\n
+\n
+FAQS<\/a><\/div>\n<\/div>\n<\/div><\/div>\n\n\n\n
+<\/figure>
+\n
+Fill out an application for your team<\/h3>\n\n\n\n
+Ready to apply? We can’t wait to hear from you. Please fill out this form to get started.<\/p>\n\n\n\n
+<\/p>\n\n\n\n
+\n
+APPLY<\/a><\/div>\n<\/div>\n<\/div><\/div>\n\n\n\n
+<\/figure>
+\n
+Resources for Entrepreneurs<\/h3>\n\n\n\n
+All selected startups are invited to connect to our University-affiliated resources.<\/p>\n\n\n\n
+<\/p>\n\n\n\n
+\n
+LEARN MORE<\/a><\/div>\n<\/div>\n<\/div><\/div>\n\n\n\n
+\n
+<\/h3>\n\n\n\n
+<\/p>\n<\/div><\/div>\n<\/div><\/div>\n\n\n\n
+<\/p>\n<\/div><\/div>\n<\/div><\/div>\n\n\n\n
+<\/iframe><\/div>\n\n\n\n
+\n
+<\/figure>
+\n
+A commitment to lifelong learning<\/h3>\n\n\n\n
+Once a Husky, always a Husky. The Northeastern community is an asset that you take with you after graduation. The Startup Space is just one of many resources available to alumni both here in the Bay Area and throughout our global network. Ready to connect? Reach out to 
+Alumni Relations<\/a> or 
+email our Bay Area team<\/a>.<\/p>\n<\/div><\/div>\n<\/div><\/div>\n","protected":false},"excerpt":{"rendered":"
+Build your company at Northeastern in San Jose, the heart of Silicon Valley. Startup Space @ Silicon Valley is a co-working space for selected ventures led by Northeastern alumni or students. Startups that are chosen by application will be invited to use the space free of charge. Housed in the same campus as our graduate…<\/p>\n","protected":false},"author":701,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"_acf_changed":false,"inline_featured_image":false,"_coblocks_attr":"","_coblocks_dimensions":"{\"coblocks-hero-619141937587\":{\"padding\":{\"paddingTop\":\"9%\",\"paddingRight\":\"5%\",\"paddingBottom\":\"9%\",\"paddingLeft\":\"5%\",\"paddingTopTablet\":null,\"paddingRightTablet\":null,\"paddingBottomTablet\":null,\"paddingLeftTablet\":null,\"paddingTopMobile\":null,\"paddingRightMobile\":null,\"paddingBottomMobile\":null,\"paddingLeftMobile\":null}}}","_coblocks_responsive_height":"","_coblocks_accordion_ie_support":"","footnotes":""},"acf":[],"_links":{"self":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4278"}],"collection":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/users\/701"}],"replies":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/comments?post=4278"}],"version-history":[{"count":44,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4278\/revisions"}],"predecessor-version":[{"id":4750,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4278\/revisions\/4750"}],"wp:attachment":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/media?parent=4278"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":4256,"date":"2022-06-07T16:38:22","date_gmt":"2022-06-07T16:38:22","guid":{"rendered":"https:\/\/lab-flex.sites.northeastern.edu\/?page_id=4256"},"modified":"2022-07-13T18:27:49","modified_gmt":"2022-07-13T18:27:49","slug":"contact-us","status":"publish","type":"page","link":"https:\/\/svstartupspace.sites.northeastern.edu\/contact-us\/","title":{"rendered":"Contact Us"},"content":{"rendered":"\n
+\n
+\n
+\n
+Contact <\/h1>\n<\/div><\/div>\n<\/div><\/div>\n<\/div><\/div><\/div><\/div>\n\n\n\n
+\n
+\n
+Looking for more information?<\/h2>\n\n\n\n
+Please reach out \u2014 we’re happy to answer any questions you have. Email us at 
+svstartupspace@northeastern.edu<\/a>. <\/p>\n\n\n\n
+<\/figure>\n<\/div><\/div>\n<\/div><\/div>\n","protected":false},"excerpt":{"rendered":"
+Looking for more information? Please reach out \u2014 we’re happy to answer any questions you have. Email us at svstartupspace@northeastern.edu….<\/p>\n","protected":false},"author":701,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"_acf_changed":false,"inline_featured_image":false,"_coblocks_attr":"","_coblocks_dimensions":"{\"coblocks-hero-619141937587\":{\"padding\":{}}}","_coblocks_responsive_height":"","_coblocks_accordion_ie_support":"","footnotes":""},"acf":[],"_links":{"self":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4256"}],"collection":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/users\/701"}],"replies":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/comments?post=4256"}],"version-history":[{"count":3,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4256\/revisions"}],"predecessor-version":[{"id":4686,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4256\/revisions\/4686"}],"wp:attachment":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/media?parent=4256"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":4252,"date":"2022-06-07T16:38:22","date_gmt":"2022-06-07T16:38:22","guid":{"rendered":"https:\/\/lab-flex.sites.northeastern.edu\/?page_id=4252"},"modified":"2022-06-07T16:39:41","modified_gmt":"2022-06-07T16:39:41","slug":"our-team","status":"publish","type":"page","link":"https:\/\/svstartupspace.sites.northeastern.edu\/our-team\/","title":{"rendered":"Our Team"},"content":{"rendered":"\n
+\n
+\n
+\n
+Our team<\/h1>\n<\/div><\/div>\n<\/div><\/div>\n<\/div><\/div><\/div><\/div>\n\n\n\n
+<\/figure>
+\n
+Nano Technology, Magnetic Imaging<\/h4>\n\n\n\n
+Use a 1×1 headshot for this space. You can move the image to be on the right side of the text by selecting a right alignment in the settings of the block.
+This text should be a space to introduce yourself to the viewer and help them understand what you are passionate about and why you care about your project.<\/p>\n\n\n\n
+Mary Doe<\/strong><\/p>\n\n\n\n
+AssocVP<\/p>\n<\/div><\/div>\n\n\n\n
+<\/figure>
+\n
+Nano Technology, Magnetic Imaging<\/h4>\n\n\n\n
+Use a 1×1 headshot for this space. You can move the image to be on the right side of the text by selecting a right alignment in the settings of the block.
+This text should be a space to introduce yourself to the viewer and help them understand what you are passionate about and why you care about your project.<\/p>\n\n\n\n
+Greg  Lorry<\/strong><\/p>\n\n\n\n
+AssocVP<\/p>\n<\/div><\/div>\n\n\n\n
+<\/figure>
+\n
+Nano Technology, Magnetic Imaging<\/h4>\n\n\n\n
+Use a 1×1 headshot for this space. You can move the image to be on the right side of the text by selecting a right alignment in the settings of the block.
+This text should be a space to introduce yourself to the viewer and help them understand what you are passionate about and why you care about your project.<\/p>\n\n\n\n
+Jane Hope<\/strong><\/p>\n\n\n\n
+AssocVP<\/p>\n<\/div><\/div>\n\n\n\n
+<\/figure>
+\n
+Nano Technology, Magnetic Imaging<\/h4>\n\n\n\n
+Use a 1×1 headshot for this space. You can move the image to be on the right side of the text by selecting a right alignment in the settings of the block.
+This text should be a space to introduce yourself to the viewer and help them understand what you are passionate about and why you care about your project.<\/p>\n\n\n\n
+John Smith<\/strong><\/p>\n\n\n\n
+AssocVP<\/p>\n<\/div><\/div>\n\n\n\n
+<\/p>\n","protected":false},"excerpt":{"rendered":"
+Nano Technology, Magnetic Imaging Use a 1×1 headshot for this space. You can move the image to be on the right side of the text by selecting a right alignment in the settings of the block.This text should be a space to introduce yourself to the viewer and help them understand what you are passionate…<\/p>\n","protected":false},"author":701,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"_acf_changed":false,"inline_featured_image":false,"_coblocks_attr":"","_coblocks_dimensions":"{\"coblocks-hero-619141937587\":{\"padding\":{}}}","_coblocks_responsive_height":"","_coblocks_accordion_ie_support":"","footnotes":""},"acf":[],"_links":{"self":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4252"}],"collection":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/users\/701"}],"replies":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/comments?post=4252"}],"version-history":[{"count":5,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4252\/revisions"}],"predecessor-version":[{"id":4604,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4252\/revisions\/4604"}],"wp:attachment":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/media?parent=4252"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":4222,"date":"2022-06-07T16:38:22","date_gmt":"2022-06-07T16:38:22","guid":{"rendered":"https:\/\/flex-refactor.sites.northeastern.edu\/?page_id=4222"},"modified":"2022-07-13T18:53:34","modified_gmt":"2022-07-13T18:53:34","slug":"faqs","status":"publish","type":"page","link":"https:\/\/svstartupspace.sites.northeastern.edu\/faqs\/","title":{"rendered":"FAQs"},"content":{"rendered":"\n
+\n
+\n
+\n
+Frequently Asked Questions<\/h1>\n<\/div><\/div>\n<\/div><\/div>\n<\/div><\/div><\/div><\/div>\n\n\n\n
+\n
+\n
+FAQ<\/h2>\n\n\n\n
+Please see below for answers to common questions about the space and the program.<\/p>\n<\/div><\/div>\n<\/div><\/div>\n\n\n\n
+\n
+What is the concept of Startup Space @ Silicon Valley?<\/h4>\n\n\n\n
+Startup Space is being created to give early-stage ventures led by alumni or students access to a free, in-person, community-connected workspace. Groups are now being selected for the inaugural six-month cohort. The space is located within Northeastern University in San Jose.<\/p>\n\n\n\n
+Here in the Bay Area, there are over 7,000 Northeastern alumni\u2014from our home campus in Boston, our locally-offered graduate programs, and our global network. We’re committed to the success of our community, both students and alumni, throughout their lives. <\/p>\n<\/div><\/div>\n\n\n\n
+\n
+Who can apply?<\/h4>\n\n\n\n
+To be eligible for consideration, your startup must:<\/p>\n\n\n\n
+Be an early-stage venture (with or without external funding)<\/li>
+Have at least one Northeastern-affiliated founding member. <\/li>
+Have a full-time commitment from the core members of your team. <\/li>
+Be interested in using the space on a regular, ongoing basis.<\/li><\/ul>\n\n\n\n
+You must also be willing to sign a lease for a term of six months.<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+Will Northeastern offer funding to participating startups?<\/h4>\n\n\n\n
+No, this is not an opportunity for funding. Our staff is happy to help you navigate 
+existing resources for entrepreneurs<\/a> in the Northeastern community.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+If I am participating in an accelerator\/incubator, can I still apply?<\/h4>\n\n\n\n
+Yes, you are still welcome to apply. <\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+When will selections be made?<\/h4>\n\n\n\n
+Startups for the 2022-2023 cohort will be chosen before September 1, 2022. After signing a lease, selected groups will be able to move in on that date. <\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+What happens after the initial six month period?<\/h4>\n\n\n\n
+This is our inaugural cohort in the Startup Space. At the conclusion of six months, we will evaluate the program and decide on next steps. If the program is a success, there may be the option to renew for more time.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+Where is the space located?<\/h4>\n\n\n\n
+The offices are located at our San Jose campus at 
+4 N. 2nd Street, San Jose, CA 95113<\/a>. We are neighbors with San Jose City Hall and San Jose State University. There are many options for lunch, office services, and shipping nearby.<\/p>\n\n\n\n
+The building is easily accessible by Caltrain (Diridon Station and transfer to multiple bus lines), BART (Berryessa Station and transfer to Rapid 500 bus line), and most downtown San Jose bus lines. Parking is available for a daily fee at nearby lots or on the street.<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+What is included in the space?<\/h4>\n\n\n\n
+The office space comes equipped with desks, chairs, high speed wifi, printing, reservable conference rooms, privacy “phone booths”, and furnished common areas. You will also be able to reserve the building’s patio and event space. <\/p>\n\n\n\n
+Additional amenities include a game room, a gym, secure bike storage, and building security.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+When can accepted teams access the space?<\/h4>\n\n\n\n
+Startup Space hours are the same as campus hours, which vary by season. During the academic year, the campus is open from 9:00 a.m. to 10:00 p.m. on weekdays, and 9:00 a.m. to 5:00 p.m. on weekends. Please check the campus 
+website<\/a> for current hours.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+Will there be events hosted for participating startups?<\/h4>\n\n\n\n
+We are excited to welcome participants into our local community, and this inaugural cohort will have a role in determining the shape of that relationship. Resident startups will at times be invited to 
+on-campus or virtual Northeastern events<\/a>. Depending on interest, we may also plan events together.<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+How do I apply?<\/h4>\n\n\n\n
+Please complete 
+this form<\/a> to indicate your interest in the space. Our team will be in touch between August 15 and September 1.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+Can I use the space for the day without applying for the program?<\/h4>\n\n\n\n
+At the moment, we are not offering drop-in workspace. Startup Space is reserved for in-house startups that have applied for a residency.<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+\n
+More questions?<\/h4>\n\n\n\n
+Email us at 
+svstartupspace@northeastern.edu<\/a>. We’re happy to help!<\/p>\n\n\n\n
+<\/p>\n<\/div><\/div>\n\n\n\n
+<\/p>\n","protected":false},"excerpt":{"rendered":"
+FAQ Please see below for answers to common questions about the space and the program. What is the concept of Startup Space @ Silicon Valley? Startup Space is being created to give early-stage ventures led by alumni or students access to a free, in-person, community-connected workspace. Groups are now being selected for the inaugural six-month…<\/p>\n","protected":false},"author":701,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"_acf_changed":false,"inline_featured_image":false,"_coblocks_attr":"","_coblocks_dimensions":"{\"coblocks-hero-619141937587\":{\"padding\":{}}}","_coblocks_responsive_height":"","_coblocks_accordion_ie_support":"","footnotes":""},"acf":[],"_links":{"self":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4222"}],"collection":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/users\/701"}],"replies":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/comments?post=4222"}],"version-history":[{"count":14,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4222\/revisions"}],"predecessor-version":[{"id":4705,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4222\/revisions\/4705"}],"wp:attachment":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/media?parent=4222"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":4107,"date":"2022-06-07T16:38:22","date_gmt":"2022-06-07T16:38:22","guid":{"rendered":"https:\/\/flex-refactor.sites.northeastern.edu\/?page_id=4107"},"modified":"2022-06-07T16:38:50","modified_gmt":"2022-06-07T16:38:50","slug":"research","status":"publish","type":"page","link":"https:\/\/svstartupspace.sites.northeastern.edu\/research\/","title":{"rendered":"Research"},"content":{"rendered":"\n
+\n
+\n
+\n
+Our research<\/h1>\n<\/div><\/div>\n<\/div><\/div>\n<\/div><\/div><\/div><\/div>\n\n\n\n
+\n
+\n
+Make it clear who you are and what you do<\/h2>\n\n\n\n
+Each project outlines the problem the client faced and a full explanation of how you went about solving it. This page will also dynamically pull your posts. Posts are a great way to build your portfolio. Pages are for static content.<\/p>\n\n\n\n
+“The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.” — Paul Rand, graphic designer<\/p>\n<\/div><\/div>\n<\/div><\/div>\n\n\n
+<\/div>
+Research Project 4<\/a>
+Short little blurb on what the project is about. Keep it under 30 words….<\/div><\/li>\n
+<\/div>
+Research Project 3<\/a>
+Short little blurb on what the project is about. Keep it under 30 words….<\/div><\/li>\n
+<\/div>
+Research Project 2<\/a>
+Short little blurb on what the project is about. Keep it under 30 words….<\/div><\/li>\n
+<\/div>
+Research Project 1<\/a>
+Short little blurb on what the project is about. Keep it under 30 words….<\/div><\/li>\n<\/ul>\n\n\n
+<\/p>\n","protected":false},"excerpt":{"rendered":"
+Make it clear who you are and what you do Each project outlines the problem the client faced and a full explanation of how you went about solving it. This page will also dynamically pull your posts. Posts are a great way to build your portfolio. Pages are for static content. “The public is more…<\/p>\n","protected":false},"author":701,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"_acf_changed":false,"inline_featured_image":false,"_coblocks_attr":"","_coblocks_dimensions":"{\"coblocks-hero-619141937587\":{\"padding\":{}}}","_coblocks_responsive_height":"{\"coblocks-hero-619141937587\":{\"height\":{\"height\":304}}}","_coblocks_accordion_ie_support":"","footnotes":""},"acf":[],"_links":{"self":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4107"}],"collection":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/users\/701"}],"replies":[{"embeddable":true,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/comments?post=4107"}],"version-history":[{"count":1,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4107\/revisions"}],"predecessor-version":[{"id":4590,"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/pages\/4107\/revisions\/4590"}],"wp:attachment":[{"href":"https:\/\/svstartupspace.sites.northeastern.edu\/wp-json\/wp\/v2\/media?parent=4107"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]
